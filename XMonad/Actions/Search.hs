@@ -376,7 +376,7 @@ maps          = searchEngine "maps"          "https://maps.google.com/maps?q="
 mathworld     = searchEngine "mathworld"     "https://mathworld.wolfram.com/search/?query="
 ncatlab       = searchEngine "ncatlab"       "https://ncatlab.org/nlab/search?query="
 nixos         = searchEngine "nixos"         "https://search.nixos.org/packages?channel=unstable&from=0&size=200&sort=relevance&type=packages&query="
-noogle        = searchEngineF "noogle"       (\s -> "https://noogle.dev/?search=" <> s <> "&page=1&to=any&from=any")
+noogle        = searchEngine "noogle"        "https://noogle.dev/q/?term="
 openstreetmap = searchEngine "openstreetmap" "https://www.openstreetmap.org/search?query="
 protondb      = searchEngine "protondb"      "https://www.protondb.com/search?q="
 rosettacode   = searchEngine "rosettacode"   "https://rosettacode.org/w/index.php?search="
